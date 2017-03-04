@@ -13,8 +13,6 @@ The application is written in Java, utilizing JavaFX and FXML for the design of 
 4. Navigate to the `src` folder
 5. Run the Java application: `java Main`
 
-Alternatively, download the .jar file [here](https://github.com/CGervase/Password-Manager).
-
 ### Future Updates
 ##### Encryption
 Currently, the credentials stored by the application are kept in simple text files. Ideally, they will be encrypted using Java's Cipher class upon exit of the application and decrypted upon opening the application (for user/master password) and login (for user-specific passwords).
